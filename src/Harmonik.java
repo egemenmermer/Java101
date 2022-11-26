@@ -13,14 +13,6 @@ public class Harmonik {
             toplam += 1/i;
         }
 
-
-       /* while (counter != n){
-            n += 1/n;
-            counter++;
-            n--;
-        }
-        */
-
         System.out.println(toplam);
     }
 }

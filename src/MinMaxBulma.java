@@ -13,13 +13,14 @@ public class MinMaxBulma {
         while (i <= counter){
             System.out.println(i + ". Sayıyı giriniz: ");
             temp = input.nextInt();
-
-            if (temp > max){
-                max = temp;
-            }else if (temp < max && max > min){
-                min = temp;
+            if(temp > 0){
+                if (temp > max){
+                    max = temp;
+                }else if (temp < max && max > min){
+                    min = temp;
+                }i++;
             }
-            i++;
+
         }
         System.out.println("En büyük sayı: " + max);
         System.out.println("En kucuk sayı: " + min);

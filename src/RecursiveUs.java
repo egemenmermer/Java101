@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class RecursiveUs {
     static int power(int a, int b){
-        if(a == 0 || b == 1)
+        if(a == 0 || b == 0)
             return 1;
         return a * power(a,b-1);
     }
